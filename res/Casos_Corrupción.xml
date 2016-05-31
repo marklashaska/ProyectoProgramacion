@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Casos_Corrupción>
+<Caso_Corrupción>
+<ID_Caso>1</ID_Caso>
+<Nombre>Caso Arroyo</Nombre>
+<Descripcion>Trama de prevaricación por parte del alcalde de la localidad vallisoletana de Arroyo</Descripcion>
+<Valor_Desviado>105000000</Valor_Desviado>
+<ID_Juez>1</ID_Juez>
+</Caso_Corrupción>
+<Caso_Corrupción>
+<ID_Caso>2</ID_Caso>
+<Nombre>Operación Pokémon</Nombre>
+<Descripcion>Recibo de sobornos y regalos provenientes de la empresa Vendex por parte de varios ayuntamientos gállegos</Descripcion>
+<Valor_Desviado>78000000</Valor_Desviado>
+<ID_Juez>2</ID_Juez>
+</Caso_Corrupción>
+<Caso_Corrupción>
+<ID_Caso>3</ID_Caso>
+<Nombre>Caso Tótem</Nombre>
+<Descripcion>Caso de corrupción urbanística en Murcia</Descripcion>
+<Valor_Desviado>8000000</Valor_Desviado>
+<ID_Juez>3</ID_Juez>
+</Caso_Corrupción>
+<Caso_Corrupción>
+<ID_Caso>4</ID_Caso>
+<Nombre>Caso Mercurio</Nombre>
+<Descripcion>Diferentes asuntos y casos de tráfico de influencias y corrupción urbanística en el ayuntamiento e Sabadell</Descripcion>
+<Valor_Desviado>89000000</Valor_Desviado>
+<ID_Juez>4</ID_Juez>
+</Caso_Corrupción>
+<Caso_Corrupción>
+<ID_Caso>5</ID_Caso>
+<Nombre>Caso Lifeblood</Nombre>
+<Descripcion>Caso de tráfico de influencias en Sanidad en las Islas Canarias</Descripcion>
+<Valor_Desviado>124000000</Valor_Desviado>
+<ID_Juez>3</ID_Juez>
+</Caso_Corrupción>
+<Caso_Corrupción>
+<ID_Caso>2222</ID_Caso>
+<Nombre>Caso dos</Nombre>
+<Descripcion>dos dos</Descripcion>
+<Valor_Desviado>2000000</Valor_Desviado>
+<ID_Juez>2</ID_Juez>
+</Caso_Corrupción>
+</Casos_Corrupción>
