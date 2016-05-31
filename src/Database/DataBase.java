@@ -73,8 +73,8 @@ public class DataBase {
     public void creaArrayCiudadanos(ResultSet rs, ArrayList ciudadanos) {
         try {
             while (rs.next()) {
-//                Ciudadano c = new Ciudadano(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6), rs.getString(7));
-//                ciudadanos.add(c);
+                Ciudadano c = new Ciudadano(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6), rs.getString(7));
+                ciudadanos.add(c);
             }
         } catch (SQLException ex) {
             System.out.println("SQL exception: " + ex.getMessage());
