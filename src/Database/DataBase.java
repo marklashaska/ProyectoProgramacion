@@ -54,8 +54,8 @@ public class DataBase {
     public void creaArrayCasos(ResultSet rs, ArrayList casos) {
         try {
             while (rs.next()) {
-//                Caso c = new Caso(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(5));
-//                casos.add(c);
+                Caso c = new Caso(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(5));
+                casos.add(c);
             }
         } catch (SQLException ex) {
             System.out.println("SQL exception: " + ex.getMessage());
