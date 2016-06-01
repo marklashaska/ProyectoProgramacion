@@ -153,7 +153,7 @@ public class Ventana extends JFrame implements ActionListener, WindowListener {
                 try {
                     String opcion2 = (String) JOptionPane.showInputDialog(null, "Selecciona un ID de caso", "Elegir ID", JOptionPane.QUESTION_MESSAGE, null, ID2, ID2[0]);
                     if (opcion2 != null) {
-//                        VentanaModificacion vM = new VentanaModificacion(db, casos, opcion2);
+                        VentanaModificacion vM = new VentanaModificacion(db, casos, opcion2);
                     }
                     System.out.println(opcion2);
                 } catch (NullPointerException ex) {
