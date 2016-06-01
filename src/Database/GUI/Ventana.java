@@ -169,7 +169,7 @@ public class Ventana extends JFrame implements ActionListener, WindowListener {
                 casos = actualizar();
                 ArrayList<Caso> casos2 = new ArrayList();
                 db.creaArrayCasos(db.Consulta("Select * from casos_corrupcion order by nombre"), casos2);
-//                VentanaListado vL1 = new VentanaListado(casos2);
+                VentanaListado vL1 = new VentanaListado(casos2);
                 break;
             case "5":
                 casos = actualizar();
@@ -177,7 +177,7 @@ public class Ventana extends JFrame implements ActionListener, WindowListener {
                 String[] ID3 = arrayIDJuez();
                 String opcion3 = (String) JOptionPane.showInputDialog(null, "Selecciona un ID de juez", "Elegir ID", JOptionPane.QUESTION_MESSAGE, null, ID3, ID3[0]);
                 db.creaArrayCasos(db.Consulta("select * from casos_corrupcion where id_juez = " + opcion3), casos3);
-//                VentanaListado vL2 = new VentanaListado(casos3);
+                VentanaListado vL2 = new VentanaListado(casos3);
                 break;
             case "6":
                 casos = actualizar();
