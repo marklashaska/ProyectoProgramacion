@@ -135,7 +135,7 @@ public class Ventana extends JFrame implements ActionListener, WindowListener {
         switch (e.getActionCommand()) {
             case "0":
                 casos = actualizar();
-//                VentanaAlta vA = new VentanaAlta(db, casos);
+                VentanaAlta vA = new VentanaAlta(db, casos);
                 break;
             case "1":
                 casos = actualizar();
