@@ -185,7 +185,7 @@ public class Ventana extends JFrame implements ActionListener, WindowListener {
                 String[] ID4 = arrayIDCaso();
                 String opcion4 = (String) JOptionPane.showInputDialog(null, "Selecciona un ID de caso", "Elegir ID", JOptionPane.QUESTION_MESSAGE, null, ID4, ID4[0]);
                 db.creaArrayCiudadanos(db.Consulta("select * from ciudadano where id_caso = " + opcion4), ciudadanos);
-//                VentanaListadoC vLC3 = new VentanaListadoC(ciudadanos);
+                VentanaListadoC vLC3 = new VentanaListadoC(ciudadanos);
                 break;
             case "7":
                 db.disconnect();
