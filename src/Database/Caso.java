@@ -13,11 +13,11 @@ package Database;
  */
 public class Caso {
 
-    String id;
-    String nombre;
-    String desc;
-    String valor;
-    String juez;
+    private String id;
+    private String nombre;
+    private String desc;
+    private String valor;
+    private String juez;
 
     /**
      * Constructor de la clase caso, todos los atributos son obligatorios.

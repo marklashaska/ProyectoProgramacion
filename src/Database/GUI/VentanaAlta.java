@@ -41,8 +41,6 @@ public class VentanaAlta extends JFrame implements ActionListener, WindowListene
     DataBase db;
     ArrayList<Caso> casos;
     String numeros = "1234567890";
-    boolean correcto = true;
-    int x = 0;
 
     /**
      * Constructor de la clase VentanaAlta.
@@ -99,6 +97,8 @@ public class VentanaAlta extends JFrame implements ActionListener, WindowListene
      * los TextField y los inserta en la base de datos.
      */
     public void alta() {
+        boolean correcto = true;
+        int x = 0;
         try {
             Caso c1 = new Caso(compruebaID(), compruebaNombre(), compruebaDesc(), compruebaValor(), compruebaJuez());
             while (correcto == true && (x < c1.getId().length() && x < c1.getJuez().length())) {

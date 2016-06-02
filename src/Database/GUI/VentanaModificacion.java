@@ -33,7 +33,7 @@ import javax.swing.border.EmptyBorder;
  * @version 29/05/2016
  */
 public class VentanaModificacion extends JFrame implements ActionListener, WindowListener {
-    
+
     JPanel contenedor;
     JButton bAlta, bAtras, bLimpiar;
     JTextField[] texto;
@@ -43,8 +43,6 @@ public class VentanaModificacion extends JFrame implements ActionListener, Windo
     ArrayList<Caso> casos;
     String ID;
     String numeros = "1234567890";
-    boolean correcto = true;
-    int x = 0;
 
     /**
      * Constructor de la clase VentanaModificacion.
@@ -102,6 +100,8 @@ public class VentanaModificacion extends JFrame implements ActionListener, Windo
      * ID de caso que se ha proporcionado anteriormente.
      */
     public void modificacion() {
+        boolean correcto = true;
+        int x = 0;
         Iterator<Caso> i1 = casos.iterator();
         while (i1.hasNext()) {
             Caso c1 = i1.next();
@@ -241,7 +241,7 @@ public class VentanaModificacion extends JFrame implements ActionListener, Windo
             System.out.println("Id de juez no válida.");
         }
     }
-    
+
     @Override
     public void actionPerformed(ActionEvent e) {
         switch (e.getActionCommand()) {
@@ -256,40 +256,40 @@ public class VentanaModificacion extends JFrame implements ActionListener, Windo
                 break;
         }
     }
-    
+
     @Override
     public void windowOpened(WindowEvent e) {
         System.out.println("Abierta");
     }
-    
+
     @Override
     public void windowClosing(WindowEvent e) {
         System.out.println("Cerrando");
     }
-    
+
     @Override
     public void windowClosed(WindowEvent e) {
         System.out.println("Cerrada");
     }
-    
+
     @Override
     public void windowIconified(WindowEvent e) {
         System.out.println("Minimizada");
     }
-    
+
     @Override
     public void windowDeiconified(WindowEvent e) {
         System.out.println("Maximizada");
     }
-    
+
     @Override
     public void windowActivated(WindowEvent e) {
         System.out.println("Activada");
     }
-    
+
     @Override
     public void windowDeactivated(WindowEvent e) {
         System.out.println("Desactivada");
     }
-    
+
 }

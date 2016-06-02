@@ -37,7 +37,6 @@ public class DataBase {
      * @param server El servidor de la Base de Datos.
      */
     public DataBase(String bd, String login, String password, String server) {
-
         this.bd = bd;
         this.login = login;
         this.password = password;
@@ -107,7 +106,6 @@ public class DataBase {
      * Método que cierra la conexion con la base de datos.
      */
     public void disconnect() {
-
         try {
             conexion.close();
             System.out.println("Desconectado");
