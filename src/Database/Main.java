@@ -22,7 +22,7 @@ public class Main {
         String servidor = "jdbc:oracle:thin:@localhost:";
         String bd = "1521:xe";
         String user = "marcos";
-        String password = "cellar";
+        String password = "case";
         DataBase db = new DataBase(bd, user, password, servidor);
         if (db.connect()) {
 //            Ventana v=new Ventana(db);
